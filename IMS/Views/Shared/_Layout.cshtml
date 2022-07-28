@@ -1,0 +1,337 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+    <meta content="Thushini Dilshara - OSOS" name="OSOS" />
+    <meta content="Thushini Dilshara" name="Thushini Dilshara" />
+
+    <title>@ViewData["Title"] - IMS</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+    <link href="~/css/bootstrap-icons.css" rel="stylesheet" />
+    <link href="~/lib/fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet" />
+
+    <link href="~/assets/css/vendor.min.css" rel="stylesheet" />
+    <link href="~/assets/css/google/app.min.css" rel="stylesheet" />
+
+    <link href="~/lib/jquery-ui-1.9.2.custom/css/vader/jquery-ui-1.9.2.custom.css" rel="stylesheet" />
+    <link href="~/assets/plugins/select2/dist/css/select2.min.css" rel="stylesheet" />
+    <link href="~/assets/plugins/bootstrap-datetime-picker/css/bootstrap-datetimepicker.min.css" rel="stylesheet" />
+    <link href="~/css/jquery.timepicker.min.css" rel="stylesheet" />
+
+    <link href="~/assets/plugins/datatables.net-bs4/css/dataTables.bootstrap4.min.css" rel="stylesheet" />
+    <link href="~/assets/plugins/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css" rel="stylesheet" />
+    <link href="~/assets/plugins/datatables.net-buttons-bs4/css/buttons.bootstrap4.min.css" rel="stylesheet" />
+
+
+    <style>
+        .btn-block {
+            width: 100px;
+        }
+
+        .dropdown-menu.media-list.dropdown-menu-end.show {
+            max-width: unset !important;
+        }
+    </style>
+    @using Microsoft.AspNetCore.Http
+    @inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+</head>
+<body id="kt_body" class="header-fixed header-tablet-and-mobile-fixed aside-enabled aside-fixed aside-primary-enabled aside-secondary-disabled">
+
+        <div id="app" class="app app-header-fixed app-sidebar-fixed app-with-wide-sidebar app-with-light-sidebar has-scroll">
+
+            <div id="header" class="app-header">
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-desktop-toggler" data-toggle="app-sidebar-minify">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="Home" class="navbar-brand">
+                        <b class="me-1">BMS </b>
+                        <small>- V 1.0</small>
+                    </a>
+                    <button type="button" class="navbar-mobile-toggler" data-toggle="app-sidebar-mobile">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+               
+                
+                <div class="navbar-nav">
+                    <div class="navbar-item navbar-form">
+                        <a href="Login" class="menu-link">
+                            <input class="btn btn-success btn-block" id="btnLogin" value="Login" readonly style="position: relative;left: 1506px;" />
+                        </a>
+                    </div>
+
+                    <div class="navbar-item navbar-user dropdown">
+                        <a href="#" class="navbar-link dropdown-toggle d-flex align-items-center" data-bs-toggle="dropdown">
+                            <img src="../assets/img/user/user_ims.png" alt="" />
+                            <b class="caret ms-lg-2"></b>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-end me-1">
+                            <a href="ChangePassword" class="dropdown-item">Change Password</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item logout">Log Out</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div id="sidebar" class="app-sidebar">
+
+                <div class="app-sidebar-content" data-scrollbar="true" data-height="100%">
+
+                    <div class="menu">
+                        <div class="menu-profile" style="background: #75a78bd1 !important;">
+                            <a href="javascript:;" class="menu-profile-link" data-toggle="app-sidebar-profile" data-target="#appSidebarProfileMenu">
+                                <div class="menu-profile-cover with-shadow"></div>
+                                <div class="menu-profile-image">
+                                    <img src="../assets/img/user/user_ims.png" alt="" />
+                                </div>
+                                <div class="menu-profile-info">
+                                    <div class="d-flex align-items-center">
+                                        <div class="flex-grow-1">
+                                            @HttpContextAccessor.HttpContext.Session.GetString("EmployeeName")
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </a>
+                        </div>
+                        <div class="menu-header">Navigation</div>
+                        <div class="menu-item has-sub">
+                            <a href="Home" class="menu-link">
+                                <div class="menu-icon">
+                                    <img src="./img/Home.png">
+                                </div>
+                                <div class="menu-text">Home</div>
+                            </a>
+                        </div>
+
+                        <div class="menu-item has-sub">
+                            @if (@HttpContextAccessor.HttpContext.Session.GetString("AuthorDetailsPer") == "true")
+                            {
+                            <div class="menu-item">
+                                <a href="AuthorDetails" class="menu-link">
+                                    <div class="menu-icon">
+                                        <img src="./img/images.png">
+                                    </div>
+                                    <div class="menu-text">Authors Registration</div>
+                                </a>
+                            </div>
+                            }
+                          
+                        </div>
+
+                        <div class="menu-item has-sub">
+                            @if (@HttpContextAccessor.HttpContext.Session.GetString("BookDetailsPer") == "true")
+                            {
+                            <div class="menu-item">
+                                <a href="BookDetails" class="menu-link">
+                                    <div class="menu-icon">
+                                        <img src="./img/492-4926200_books-png-transparent-hd-file-pngbg-books-transparent.png">
+                                    </div>
+                                    <div class="menu-text">Book Details</div>
+                                </a>
+                            </div>
+                            }
+                           
+                        </div>
+
+                        <div class="menu-item has-sub">
+                            @if (@HttpContextAccessor.HttpContext.Session.GetString("BooksSummaryPer") == "true")
+                            {
+                            <div class="menu-item">
+                                <a href="BooksSummary" class="menu-link">
+                                    <div class="menu-icon">
+                                        <img src="./img/492-4926200_books-png-transparent-hd-file-pngbg-books-transparent.png">
+                                    </div>
+                                    <div class="menu-text">Books Summary</div>
+                                </a>
+                            </div>
+                            }
+                         
+                        </div>
+                        @if (@HttpContextAccessor.HttpContext.Session.GetString("CreateUserGroupPer") == "true"
+                     && @HttpContextAccessor.HttpContext.Session.GetString("CreateUserPer") == "true")
+                        {
+                            <div class="menu-item has-sub">
+                                <a href="javascript:;" class="menu-link">
+                                    <div class="menu-icon">
+                                        <img src="./img/Setting.png">
+                                    </div>
+                                    <div class="menu-text">Control Panel </div>
+                                    <div class="menu-badge">2</div>
+                                    <div class="menu-caret"></div>
+                                </a>
+                                <div class="menu-submenu">
+                                    @if (@HttpContextAccessor.HttpContext.Session.GetString("CreateUserGroupPer") == "true")
+                                    {
+                                        <div class="menu-item">
+                                            <a href="CreateUserGroup" class="menu-link">
+                                                <div class="menu-text">Create User Group/Permissions</div>
+                                            </a>
+                                        </div>
+                                    }
+                                    @if (@HttpContextAccessor.HttpContext.Session.GetString("CreateUserPer") == "true")
+                                    {
+                                        <div class="menu-item">
+                                            <a href="CreateUser" class="menu-link">
+                                                <div class="menu-text">Create User</div>
+                                            </a>
+                                        </div>
+                                    }
+                                </div>
+                            </div>
+                            }
+                    </div>
+                </div>
+            </div>
+            <div class="app-sidebar-bg"></div>
+            <div class="app-sidebar-mobile-backdrop"><a href="#" data-dismiss="app-sidebar-mobile" class="stretched-link"></a></div>
+
+
+            @RenderBody()
+
+
+            <div class="theme-panel">
+                <a href="javascript:;" data-toggle="theme-panel-expand" class="theme-collapse-btn"><i class="fa fa-cog"></i></a>
+                <div class="theme-panel-content" data-scrollbar="true" data-height="100%">
+                    <h5>App Settings</h5>
+
+                    <div class="theme-list">
+                        <div class="theme-list-item"><a href="javascript:;" class="theme-list-link bg-red" data-theme="red" data-theme-file="../assets/css/google/theme/red.min.css" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Red">&nbsp;</a></div>
+                        <div class="theme-list-item"><a href="javascript:;" class="theme-list-link bg-pink" data-theme="pink" data-theme-file="../assets/css/google/theme/pink.min.css" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Pink">&nbsp;</a></div>
+                        <div class="theme-list-item"><a href="javascript:;" class="theme-list-link bg-orange" data-theme="orange" data-theme-file="../assets/css/google/theme/orange.min.css" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Orange">&nbsp;</a></div>
+                        <div class="theme-list-item"><a href="javascript:;" class="theme-list-link bg-yellow" data-theme="yellow" data-theme-file="../assets/css/google/theme/yellow.min.css" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Yellow">&nbsp;</a></div>
+                        <div class="theme-list-item"><a href="javascript:;" class="theme-list-link bg-lime" data-theme="lime" data-theme-file="../assets/css/google/theme/lime.min.css" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Lime">&nbsp;</a></div>
+                        <div class="theme-list-item"><a href="javascript:;" class="theme-list-link bg-green" data-theme="green" data-theme-file="../assets/css/google/theme/green.min.css" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Green">&nbsp;</a></div>
+                        <div class="theme-list-item"><a href="javascript:;" class="theme-list-link bg-teal" data-theme="teal" data-theme-file="../assets/css/google/theme/teal.min.css" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Teal">&nbsp;</a></div>
+                        <div class="theme-list-item"><a href="javascript:;" class="theme-list-link bg-cyan" data-theme="cyan" data-theme-file="../assets/css/google/theme/cyan.min.css" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Cyan">&nbsp;</a></div>
+                        <div class="theme-list-item"><a href="javascript:;" class="theme-list-link bg-blue" data-theme="blue" data-theme-file="../assets/css/google/theme/blue.min.css" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Blue">&nbsp;</a></div>
+                        <div class="theme-list-item"><a href="javascript:;" class="theme-list-link bg-purple" data-theme="purple" data-theme-file="../assets/css/google/theme/purple.min.css" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Purple">&nbsp;</a></div>
+                        <div class="theme-list-item"><a href="javascript:;" class="theme-list-link bg-indigo" data-theme="indigo" data-theme-file="../assets/css/google/theme/indigo.min.css" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Indigo">&nbsp;</a></div>
+                        <div class="theme-list-item"><a href="javascript:;" class="theme-list-link bg-black" data-theme="black" data-theme-file="../assets/css/google/theme/black.min.css" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Black">&nbsp;</a></div>
+                    </div>
+
+                    <div class="theme-panel-divider"></div>
+
+                    <div class="row mt-10px align-items-center">
+                        <div class="col-8 control-label text-inverse">Header Fixed</div>
+                        <div class="col-4 d-flex">
+                            <div class="form-check form-switch ms-auto mb-0">
+                                <input type="checkbox" class="form-check-input" name="app-header-fixed" id="appHeaderFixed" value="1" checked />
+                                <label class="form-check-label" for="appHeaderFixed">&nbsp;</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-10px align-items-center">
+                        <div class="col-8 control-label text-inverse">Header Inverse</div>
+                        <div class="col-4 d-flex">
+                            <div class="form-check form-switch ms-auto mb-0">
+                                <input type="checkbox" class="form-check-input" name="app-header-inverse" id="appHeaderInverse" value="1" />
+                                <label class="form-check-label" for="appHeaderInverse">&nbsp;</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-10px align-items-center">
+                        <div class="col-8 control-label text-inverse">Sidebar Fixed</div>
+                        <div class="col-4 d-flex">
+                            <div class="form-check form-switch ms-auto mb-0">
+                                <input type="checkbox" class="form-check-input" name="app-sidebar-fixed" id="appSidebarFixed" value="1" checked />
+                                <label class="form-check-label" for="appSidebarFixed">&nbsp;</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="theme-panel-divider"></div>
+
+                    <div class="theme-panel-divider"></div>
+                    <a href="#" class="btn btn-inverse d-block w-100 rounded-pill mb-10px" target="_blank"><b>Manual</b></a>
+                    <a href="javascript:;" class="btn btn-default d-block w-100 rounded-pill" data-toggle="reset-local-storage"><b>Reset Local Storage</b></a>
+                </div>
+            </div>
+
+
+            <a href="javascript:;" class="btn btn-icon btn-circle btn-success btn-scroll-to-top" data-toggle="scroll-to-top"><i class="fa fa-angle-up"></i></a>
+
+        </div>
+
+        <script src="~/assets/js/vendor.min.js" type="text/javascript"></script>
+        <script src="~/assets/js/app.min.js" type="text/javascript"></script>
+
+        <script src="~/lib/fontawesome-free-5.15.3-web/js/all.js"></script>
+
+        <script src="~/assets/plugins/datatables.net/js/jquery.dataTables.min.js"></script>
+        <script src="~/assets/plugins/datatables.net-bs4/js/dataTables.bootstrap4.min.js"></script>
+        <script src="~/assets/plugins/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+        <script src="~/assets/plugins/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js"></script>
+        <script src="~/assets/plugins/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
+        <script src="~/assets/plugins/datatables.net-buttons-bs4/js/buttons.bootstrap4.min.js"></script>
+        <script src="~/assets/plugins/datatables.net-buttons/js/buttons.colVis.min.js"></script>
+        <script src="~/assets/plugins/datatables.net-buttons/js/buttons.flash.min.js"></script>
+        <script src="~/assets/plugins/datatables.net-buttons/js/buttons.html5.min.js"></script>
+        <script src="~/assets/plugins/datatables.net-buttons/js/buttons.print.min.js"></script>
+        <script src="~/assets/plugins/pdfmake/build/pdfmake.min.js"></script>
+        <script src="~/assets/plugins/pdfmake/build/vfs_fonts.js"></script>
+        <script src="~/assets/plugins/jszip/dist/jszip.min.js"></script>
+
+        <script src="~/assets/plugins/select2/dist/js/select2.min.js"></script>
+        <script src="~/assets/plugins/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="~/assets/plugins/moment/min/moment.min.js"></script>
+        <script src="~/assets/plugins/bootstrap-datetime-picker/js/bootstrap-datetimepicker.min.js"></script>
+
+        <script src="~/js/jquery.timepicker.min.js"></script>
+
+        <script src="~/js/common.js"></script>
+
+        <script type="text/javascript">
+            $(function () {
+                $(".datepicker").datepicker({
+                    //minDate: "-3M -15D",
+                    //maxDate: "+3M +15D",
+                    //yearRange: "-1:+1",
+                    changeMonth: true,
+                    changeYear: true,
+                    dateFormat: 'yy-mm-dd'
+                });
+            });
+
+            $(function () {
+                $(".datetimepicker").datetimepicker();
+            });
+
+            $('.timepicker').timepicker({
+                timeFormat: 'HH:mm',
+                interval: 30,
+                //minTime: '10',
+                //maxTime: '6:00pm',
+                defaultTime: '11',
+                startTime: '10:00',
+                dynamic: false,
+                dropdown: true,
+                scrollbar: true
+            });
+
+            $(".default-select2").select2();
+            $(".multiple-select2").select2({ placeholder: "Select states" });
+
+        </script>
+
+        @RenderSection("Scripts", required: false)
+
+        <script>
+            var logout = "@Url.Action("LogOut", "Login")";
+            var logoutAll = "@Url.Action("Index", "Login")";
+        </script>
+
+</body>
+</html>

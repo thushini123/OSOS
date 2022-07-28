@@ -1,0 +1,128 @@
+﻿@{
+    ViewData["Title"] = "Book Details";
+    Layout = "_Layout";
+}
+<style>
+    .lbltxt-bold {
+        font-weight: 900;
+    }
+
+    .btn-block {
+        width: 100px;
+    }
+</style>
+
+@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+<div id="content" class="app-content">
+
+    <ol class="breadcrumb float-xl-end">
+        <li class="breadcrumb-item"><a href="javascript:;">Home</a></li>
+        <li class="breadcrumb-item active">Book Details</li>
+    </ol>
+
+
+    <h1 class="page-header">Book Details<small></small></h1>
+
+
+    <div class="panel panel-inverse">
+        <div class="panel-heading">
+            <h4 class="panel-title">Book Details</h4>
+            <div class="panel-heading-btn">
+                <a href="javascript:;" class="btn btn-xs btn-icon btn-default" data-toggle="panel-expand"><i class="fa fa-expand"></i></a>
+            </div>
+        </div>
+        <div class="panel-body">
+            <!--begin::Form-->
+            <form class="form" autocomplete="off">
+                <div id="validateDiv">
+                    <div class="col-md-12 form-group">
+                        <div class="col-md-6">
+                            <label for="txtauthorname" class="form-label lbltxt-bold compulsory">Author Name</label>
+                            <select id="drpauthorname" class="form-select default-select2" validate="true" match="^.+$" error="* This Field required!" onchange="validateInputs();">
+                                <option value=""></option>
+                            </select>
+                            <div class="text-danger errorNew"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 form-group">
+                        <div class="col-md-6">
+                            <label for="txtBooktitle" class="form-label lbltxt-bold">Book Title</label>
+                            <input type="text" class="form-control" id="txtBooktitle" validate="true" match="^.+$" error="* This Field required!" onkeyup="validateInputs();">
+                            <div class="text-danger errorNew"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 form-group">
+                        <div class="col-md-6">
+                            <label for="txtBookName" class="form-label lbltxt-bold">Book Name</label>
+                            <input type="text" class="form-control" id="txtBookName" validate="true" match="^.+$" error="* This Field required!" onkeyup="validateInputs();">
+                            <div class="text-danger errorNew"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 form-group">
+                        <div class="col-md-4">
+                            <label for="txtEmail" class="form-label lbltxt-bold">Cover Image</label>
+                            <input type="file" id="flImage" name="ImageUpload" accept="image/jpeg,image/jpg,image/png,application/pdf"
+                                   onchange='uploadTempImage()' class="form-control" multiple>
+                            <input id="HiddenDescDoc" type="hidden" value="0" attr-imgS="" />
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-12" style="margin-top:4%;">
+                    <center>
+                        <input type="text" class="btn btn-danger btn-block" value="Cancel" readonly id="btnCancel">
+                        <input type="text" class="btn btn-success btn-block" value="Save" readonly id="btnSave">
+                    </center>
+                </div>
+
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-group" style="max-height: 400px; overflow: auto;">
+                    <div>
+                        <table id="table2" class="table table-bordered table-hover table-striped" style="display: none;">
+                            <thead style="background-color: darkslategray;color: wheat;">
+                                <tr>
+                                    <td>Book Title</td>
+                                    <td>Book Name</td>
+                                    <td>Image Cover</td>
+                                </tr>
+                            </thead>
+
+                            <tbody id="myTbodyContent1"></tbody>
+
+                        </table>
+                    </div>
+                </div>
+                <div class="modal fade viewUpFilesModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                    <div class="modal-dialog modal-lg">
+                        <div class="panel panel-info">
+                            <div class="panel-body text-center objContainer">
+
+                            </div>
+                            <div class="panel-footer">
+                                <button type="button" class="btn btn-warning" data-dismiss="modal"><span class="fa fa-close"></span>&nbsp;Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <!--end::Form-->
+        </div>
+    </div>
+</div>
+
+
+@section scripts{
+
+    <script>
+        function validateInputs() {
+            validate('#validateDiv');
+        }
+
+        var saveItemData = "@Url.Action("SaveItemData", "BookDetails")";
+        var UrlLoadItemData = "@Url.Action("LoadItemData", "BookDetails")";
+        var UrlLoadData = "@Url.Action("LoadData", "BookDetails")";
+    </script>
+
+    <script src="~/jsPages/BookDetails.js"></script>
+}
+
+

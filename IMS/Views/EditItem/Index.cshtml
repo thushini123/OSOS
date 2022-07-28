@@ -1,0 +1,108 @@
+﻿@{
+    ViewData["Title"] = "Edit Item";
+    Layout = "_Layout";
+}
+<style>
+    .lbltxt-bold {
+        font-weight: 900;
+    }
+
+    .btn-block {
+        width: 100px;
+    }
+</style>
+
+@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+<div id="content" class="app-content">
+
+    <ol class="breadcrumb float-xl-end">
+        <li class="breadcrumb-item"><a href="javascript:;">Home</a></li>
+        <li class="breadcrumb-item active">Edit Item</li>
+    </ol>
+
+
+    <h1 class="page-header">Edit Item<small></small></h1>
+
+
+    <div class="panel panel-inverse">
+        <div class="panel-heading">
+            <h4 class="panel-title">Edit Item</h4>
+            <div class="panel-heading-btn">
+                <a href="javascript:;" class="btn btn-xs btn-icon btn-default" data-toggle="panel-expand"><i class="fa fa-expand"></i></a>
+            </div>
+        </div>
+        <div class="panel-body">
+            <!--begin::Form-->
+            <form class="form" autocomplete="off">
+                <div id="validateDiv">
+                    <div class="col-md-12 form-group">
+                        <div class="col-md-6">
+                            <label for="drpItemId" class="form-label lbltxt-bold compulsory">Item Id</label>
+                            <select id="drpItemId" class="form-select default-select2" validate="true" error="* This Field required!" onchange="validateInputs();">
+                                <option value="">select</option>
+                            </select>
+                            <div class="text-danger errorNew"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 form-group">
+                        <div class="col-md-6">
+                            <label for="txtItemName" class="form-label lbltxt-bold">Item Name</label>
+                            <input type="text" class="form-control" id="txtItemName" validate="true" match="^.+$" error="* This Field required!" onkeyup="validateInputs();">
+                            <div class="text-danger errorNew"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 form-group">
+                        <div class="col-md-6">
+                            <label for="txtBatchNo" class="form-label lbltxt-bold">Batch No</label>
+                            <input type="text" class="form-control" id="txtBatchNo" validate="true" match="^.+$" error="* This Field required!" onkeyup="validateInputs();">
+                            <div class="text-danger errorNew"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 form-group">
+                        <div class="col-md-6">
+                            <label for="txtExpDate" class="form-label lbltxt-bold">Expire Date</label>
+                            <input type="text" class="form-control datepicker" id="txtExpDate" validate="false" match="^.+$" error="* This Field required!" onkeyup="validateInputs();">
+                            <div class="text-danger errorNew"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 form-group">
+                        <div class="col-md-4">
+                            <label for="txtQuantity" class="form-label lbltxt-bold">Quantity</label>
+                            <input type="text" class="form-control" id="txtQuantity" validate="true" match="^(\d+)$" error="* Invalid number!" style="text-align: right;" onkeyup="validateInputs();">
+                            <div class="text-danger errorNew"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-12" style="margin-top:4%;">
+                    <center>
+                        <input type="text" class="btn btn-danger btn-block" value="Cancel" readonly id="btnCancel">
+                        @if (@HttpContextAccessor.HttpContext.Session.GetString("EditItemReadAndWritePer") == "true")
+                        {
+                            <input type="text" class="btn btn-success btn-block" value="Update" readonly id="btnUpdate">
+                        }
+                    </center>
+                </div>
+            </form>
+            <!--end::Form-->
+        </div>
+    </div>
+</div>
+
+
+@section scripts{
+
+    <script>
+        function validateInputs() {
+            validate('#validateDiv');
+        }
+
+        var loadItemsIds = "@Url.Action("LoadItemsIds", "EditItem")";
+        var loadItemData = "@Url.Action("LoadItemData", "EditItem")";
+        var updateItemData = "@Url.Action("UpdateItemData", "EditItem")";
+        var loadItemDataInPageLoad = "@Url.Action("LoadItemDataInPageLoad", "EditItem")";
+
+    </script>
+
+    <script src="~/jsPages/EditItem.js"></script>
+}

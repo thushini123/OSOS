@@ -1,0 +1,206 @@
+E:\Interview\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\Interview\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\appsettings.json
+E:\Interview\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\IMS.exe
+E:\Interview\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\IMS.deps.json
+E:\Interview\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\IMS.runtimeconfig.json
+E:\Interview\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\IMS.runtimeconfig.dev.json
+E:\Interview\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\IMS.dll
+E:\Interview\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\IMS.pdb
+E:\Interview\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\IMS.Views.dll
+E:\Interview\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\IMS.Views.pdb
+E:\Interview\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\BCrypt.Net-Next.dll
+E:\Interview\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\Bricelam.EntityFrameworkCore.Pluralizer.dll
+E:\Interview\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Interview\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+E:\Interview\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Interview\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+E:\Interview\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Interview\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Interview\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+E:\Interview\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\Interview\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+E:\Interview\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+E:\Interview\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+E:\Interview\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\Interview\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\Interview\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+E:\Interview\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+E:\Interview\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+E:\Interview\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\Interview\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\Interview\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Interview\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\IMS.GeneratedMSBuildEditorConfig.editorconfig
+E:\Interview\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\IMS.AssemblyInfoInputs.cache
+E:\Interview\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\IMS.AssemblyInfo.cs
+E:\Interview\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\IMS.csproj.CoreCompileInputs.cache
+E:\Interview\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\IMS.MvcApplicationPartsAssemblyInfo.cache
+E:\Interview\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\IMS.RazorAssemblyInfo.cache
+E:\Interview\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\IMS.RazorAssemblyInfo.cs
+E:\Interview\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\EFCorePluralizer.cs
+E:\Interview\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\staticwebassets\IMS.StaticWebAssets.Manifest.cache
+E:\Interview\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\staticwebassets\IMS.StaticWebAssets.xml
+E:\Interview\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\scopedcss\bundle\IMS.styles.css
+E:\Interview\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\IMS.TagHelpers.input.cache
+E:\Interview\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\IMS.TagHelpers.output.cache
+E:\Interview\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\IMS.RazorCoreGenerate.cache
+E:\Interview\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\ChangePassword\Index.cshtml.g.cs
+E:\Interview\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\CreateUserGroup\Index.cshtml.g.cs
+E:\Interview\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\CreateUser\Index.cshtml.g.cs
+E:\Interview\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+E:\Interview\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+E:\Interview\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
+E:\Interview\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+E:\Interview\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+E:\Interview\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\Interview\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+E:\Interview\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+E:\Interview\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\IMS.RazorTargetAssemblyInfo.cache
+E:\Interview\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\IMS.RazorTargetAssemblyInfo.cs
+E:\Interview\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\IMS.Views.pdb
+E:\Interview\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\IMS.csproj.CopyComplete
+E:\Interview\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\IMS.dll
+E:\Interview\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\IMS.pdb
+E:\Interview\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\IMS.genruntimeconfig.cache
+E:\Interview\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\IMS.csproj.AssemblyReference.cache
+E:\Interview\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\EditItem\Index.cshtml.g.cs
+E:\Interview\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\AddItem\Index.cshtml.g.cs
+E:\Interview\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\SendEmail\Index.cshtml.g.cs
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\IMS.dll
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\IMS.pdb
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\IMS.exe
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\IMS.deps.json
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\IMS.runtimeconfig.json
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\IMS.runtimeconfig.dev.json
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\IMS.dll
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\IMS.pdb
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\IMS.Views.dll
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\IMS.Views.pdb
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\BCrypt.Net-Next.dll
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\Bricelam.EntityFrameworkCore.Pluralizer.dll
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\IMS.csproj.AssemblyReference.cache
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\IMS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\IMS.AssemblyInfoInputs.cache
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\IMS.AssemblyInfo.cs
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\IMS.csproj.CoreCompileInputs.cache
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\IMS.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\IMS.RazorAssemblyInfo.cache
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\IMS.RazorAssemblyInfo.cs
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\EFCorePluralizer.cs
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\staticwebassets\IMS.StaticWebAssets.Manifest.cache
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\staticwebassets\IMS.StaticWebAssets.xml
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\scopedcss\bundle\IMS.styles.css
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\IMS.TagHelpers.input.cache
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\IMS.TagHelpers.output.cache
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\IMS.RazorCoreGenerate.cache
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\AddItem\Index.cshtml.g.cs
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\ChangePassword\Index.cshtml.g.cs
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\CreateUserGroup\Index.cshtml.g.cs
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\CreateUser\Index.cshtml.g.cs
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\EditItem\Index.cshtml.g.cs
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\SendEmail\Index.cshtml.g.cs
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\IMS.RazorTargetAssemblyInfo.cache
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\IMS.RazorTargetAssemblyInfo.cs
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\IMS.Views.pdb
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\IMS.csproj.CopyComplete
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\IMS.genruntimeconfig.cache
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\AuthorDetails\Index.cshtml.g.cs
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\BookDetails\Index.cshtml.g.cs
+C:\Users\spt\Desktop\Empite Solutions\IMS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\BooksSummary\Index.cshtml.g.cs
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\bin\Debug\netcoreapp3.1\IMS.exe
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\bin\Debug\netcoreapp3.1\IMS.deps.json
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\bin\Debug\netcoreapp3.1\IMS.runtimeconfig.json
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\bin\Debug\netcoreapp3.1\IMS.runtimeconfig.dev.json
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\bin\Debug\netcoreapp3.1\IMS.dll
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\bin\Debug\netcoreapp3.1\IMS.pdb
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\bin\Debug\netcoreapp3.1\IMS.Views.dll
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\bin\Debug\netcoreapp3.1\IMS.Views.pdb
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\bin\Debug\netcoreapp3.1\BCrypt.Net-Next.dll
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\bin\Debug\netcoreapp3.1\Bricelam.EntityFrameworkCore.Pluralizer.dll
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\obj\Debug\netcoreapp3.1\IMS.csproj.AssemblyReference.cache
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\obj\Debug\netcoreapp3.1\IMS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\obj\Debug\netcoreapp3.1\IMS.AssemblyInfoInputs.cache
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\obj\Debug\netcoreapp3.1\IMS.AssemblyInfo.cs
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\obj\Debug\netcoreapp3.1\IMS.csproj.CoreCompileInputs.cache
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\obj\Debug\netcoreapp3.1\IMS.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\obj\Debug\netcoreapp3.1\IMS.RazorAssemblyInfo.cache
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\obj\Debug\netcoreapp3.1\IMS.RazorAssemblyInfo.cs
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\obj\Debug\netcoreapp3.1\EFCorePluralizer.cs
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\obj\Debug\netcoreapp3.1\staticwebassets\IMS.StaticWebAssets.Manifest.cache
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\obj\Debug\netcoreapp3.1\staticwebassets\IMS.StaticWebAssets.xml
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\obj\Debug\netcoreapp3.1\scopedcss\bundle\IMS.styles.css
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\obj\Debug\netcoreapp3.1\IMS.TagHelpers.input.cache
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\obj\Debug\netcoreapp3.1\IMS.TagHelpers.output.cache
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\obj\Debug\netcoreapp3.1\IMS.RazorCoreGenerate.cache
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\AddItem\Index.cshtml.g.cs
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\AuthorDetails\Index.cshtml.g.cs
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\BookDetails\Index.cshtml.g.cs
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\BooksSummary\Index.cshtml.g.cs
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\ChangePassword\Index.cshtml.g.cs
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\CreateUserGroup\Index.cshtml.g.cs
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\CreateUser\Index.cshtml.g.cs
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\EditItem\Index.cshtml.g.cs
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\obj\Debug\netcoreapp3.1\IMS.RazorTargetAssemblyInfo.cache
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\obj\Debug\netcoreapp3.1\IMS.RazorTargetAssemblyInfo.cs
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\obj\Debug\netcoreapp3.1\IMS.Views.pdb
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\obj\Debug\netcoreapp3.1\IMS.csproj.CopyComplete
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\obj\Debug\netcoreapp3.1\IMS.dll
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\obj\Debug\netcoreapp3.1\IMS.pdb
+C:\Users\spt\Desktop\OSOS\OSOS\IMS\obj\Debug\netcoreapp3.1\IMS.genruntimeconfig.cache

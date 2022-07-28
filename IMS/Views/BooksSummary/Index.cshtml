@@ -1,0 +1,84 @@
+﻿@{
+    ViewData["Title"] = "BookSummary";
+
+}
+
+<style>
+    .text-center {
+        vertical-align: middle;
+    }
+
+    .bg-info-new {
+        background-color: #76f36e;
+    }
+
+    .hideCol {
+        display: none;
+    }
+
+    .custome-left {
+        text-align: left;
+    }
+
+    .custome-right {
+        text-align: right;
+    }
+
+    .custome-center {
+        text-align: center;
+    }
+</style>
+
+@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+<div id="content" class="app-content">
+
+    <ol class="breadcrumb float-xl-end">
+        <li class="breadcrumb-item"><a href="javascript:;">Book Summary</a></li>
+    </ol>
+
+
+    <h1 class="page-header">Book Summary<small></small></h1>
+
+
+    <div class="panel panel-inverse">
+        <div class="panel-heading">
+            <h4 class="panel-title">Book Summary</h4>
+            <div class="panel-heading-btn">
+                <a href="javascript:;" class="btn btn-xs btn-icon btn-default" data-toggle="panel-expand"><i class="fa fa-expand"></i></a>
+            </div>
+        </div>
+        <div class="panel-body">
+            <!--begin::Form-->
+
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-group" style="max-height: 400px; overflow: auto;">
+                <div>
+                    <table id="table2" class="table table-bordered table-hover table-striped" style="display: none;">
+                        <thead style="background-color: darkslategray;color: wheat;">
+                            <tr>
+                                <td>Author</td>
+                                <td>No of Books</td>
+                            </tr>
+                        </thead>
+
+                        <tbody id="myTbodyContent1"></tbody>
+
+                    </table>
+                </div>
+            </div>
+            <!--end::Form-->
+        </div>
+    </div>
+</div>
+
+@section scripts{
+
+    <script>
+
+        var URLloadItemData = "@Url.Action("LoadBookItemData", "BooksSummary")";
+    </script>
+
+    <script src="~/jsPages/BooksSummary.js"></script>
+
+
+}

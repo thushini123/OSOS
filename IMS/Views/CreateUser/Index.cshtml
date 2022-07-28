@@ -1,0 +1,136 @@
+﻿@{
+    ViewData["Title"] = "Create User";
+    Layout = "_Layout";
+}
+<style>
+    /*table, td, th {
+        border: 2px solid black !important;
+    }
+
+    table {
+        border-collapse: collapse !important;
+    }
+
+    th {
+        text-align: center !important;
+    }*/
+</style>
+
+<div id="content" class="app-content">
+
+    <ol class="breadcrumb float-xl-end">
+        <li class="breadcrumb-item"><a href="javascript:;">Home</a></li>
+        <li class="breadcrumb-item active">Create User</li>
+    </ol>
+
+
+    <h1 class="page-header">Create User<small></small></h1>
+
+
+    <div class="panel panel-inverse">
+        <div class="panel-heading">
+            <h4 class="panel-title">Create User</h4>
+            <div class="panel-heading-btn">
+                <a href="javascript:;" class="btn btn-xs btn-icon btn-default" data-toggle="panel-expand"><i class="fa fa-expand"></i></a>
+            </div>
+        </div>
+        <div class="panel-body">
+            <!--begin::Form-->
+            <form class="form" autocomplete="off">
+
+                <div class="col-md-12 form-group" id="schpanel" style="display: none;">
+                    <div class="col-md-6">
+                        <label for="drpSchEmpDet" class="form-label">Search User Details :</label>
+                        <select id="drpSchEmpDet" name="drpSchEmpDet" class="form-select col-md-4">
+                            <option value="">select</option>
+                        </select>
+                        <div class="text-danger"></div>
+                    </div>
+                    <hr style="height:2px;color:orange;background-color:orange;margin-bottom:4%;">
+                </div>
+
+                @*save user form*@
+                <div id="NewUserPanel">
+                    <div class="col-md-12 form-group">
+                        <div class="col-md-6">
+                            <label for="txtEmployeeName" class="form-label">Employee Name</label>
+                            <input type="text" class="form-control col-md-2" id="txtEmployeeName" name="txtEmployeeName" validate="true" match="^(?!\s*$).+" error="* This Field required!" onkeyup="validateInputs();">
+                            <div class="text-danger errorNew"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 form-group">
+                        <label for="txtUserName" class="form-label">User Name</label>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control col-md-2" id="txtUserName" name="txtUserName" validate="true" match="^\S+$" error="* This Field required!" onkeyup="validateInputs();">
+                            <div class="text-danger errorNew"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 form-group">
+                        <label for="txtPassword" class="form-label">Password</label>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control col-md-2" id="txtPassword" name="txtPassword" validate="false" match="^\S+$" error="* This Field required!" onkeyup="validateInputs();">
+                            <div class="text-danger errorNew"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 form-group">
+                        <label for="drpUserGroup" class="form-label">User Group</label>
+                        <div class="col-md-6">
+                            <select id="drpUserGroup" class="form-select col-md-4" name="drpUserGroup" validate="true" error="* This Field required!" onchange="validateInputs();">
+                                <option selected>- select -</option>
+                            </select>
+                            <div class="text-danger errorNew"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 form-group">
+                        <label for="drpUserStatus" class="form-label">Status</label>
+                        <div class="col-md-6">
+                            <select id="drpUserStatus" class="form-select col-md-4" name="drpUserStatus" validate="true" error="* This Field required!" onchange="validateInputs();">
+                                <option selected="selected" disabled>- select -</option>
+                                <option value="Active">Active</option>
+                                <option value="Inactive">Inactive</option>
+                            </select>
+                            <div class="text-danger errorNew"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-12" style="margin-top:4%;">
+                    <center>
+                        <input type="text" class="btn btn-danger btn-block" readonly value="Cancel" id="cancelBtn">
+                        <input type="text" class="btn btn-success btn-block" readonly value="Save" id="SaveBtn">
+                        <input type="text" class="btn btn-warning btn-block" readonly value="Browse" id="Browsebtn">
+                    </center>
+                </div>
+            </form>
+            <!--end::Form-->
+        </div>
+    </div>
+
+</div>
+
+
+@section scripts{
+
+    <script>
+        function validateInputs() {
+            validate('#NewUserPanel');
+        }
+
+
+        var LoadEmpURL = "@Url.Action("LoadEmp", "CreateUser")";
+        var LoadUGURL = "@Url.Action("LoadUG", "CreateUser")";
+        var LoadAllBrowseDataURL = "@Url.Action("LoadAllBrowseData", "CreateUser")";
+
+        var SaveUserURL = "@Url.Action("SaveUser", "CreateUser")";
+        var UpdateUserURL = "@Url.Action("UpdateUser", "CreateUser")";
+
+
+    </script>
+
+    <script src="~/jsPages/CreateUser.js"></script>
+
+}
